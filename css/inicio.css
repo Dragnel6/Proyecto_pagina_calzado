@@ -1,0 +1,292 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Cinzel', serif;
+
+}
+html{
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+header {
+    width: 100%;
+}
+
+/* Estilos de la barra superior */
+.top-nav {
+    background-color: #364681;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+}
+.top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top-nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.top-nav ul button i {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.top-nav ul li a:hover {
+ color: black;
+}
+/* Estilos de la barra principal */
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBF2D5;
+    padding: 10px 20px;
+}
+.logo img {
+    height: 75px;
+    width: 75px;
+    display: grid;
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li select {
+    background-color: #FBF2D5;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+}
+nav ul li select:hover {
+    background-color: #364681;
+    color: aqua;
+    border-radius: 5px;
+}
+/*----------Estilo para el buscador-------------*/
+/*elementos importantes para modificacion general*/
+section#buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #364681; /* Color del fondo del input */
+    border-radius: 10px;
+    padding: 5px;
+    width: 70%; /* Ancho del buscador */
+}
+.search-input {
+    border: none;
+    outline: none;
+    background-color: #364681; /* Color del fondo del input */
+    color: white;
+    font-size: 18px;
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px 0 0 10px; /* Esquinas redondeadas */
+}
+.search-button {
+    border: none;
+    background-color: #364681; /* Color del fondo del botón */
+    padding: 10px;
+    border-radius: 0 10px 10px 0; /* Esquinas redondeadas */
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: #2E3A66; /* Color del fondo del botón al pasar el cursor */
+}
+
+/*Aqui comienzan los estilos del catalogo de productos*/
+/*Estilos del section*/
+section {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 1em 2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section h1{
+    margin: 0;
+    font-size: 2rem;
+}
+.categories button {
+    background-color: #4a6cb3;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.categories button:hover {
+    background-color: #3d56a0;
+}
+.product-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product-slider button {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: #666;
+}
+.product-slider button:hover {
+    color: #333;
+}
+.product-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 85%;
+}
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 0.5em;
+    padding: 1em;
+    text-align: center;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    flex: 0 0 auto;
+}
+.product-card:hover {
+    border: 2px solid #4a6cb3;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+.actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.actions button {
+    background-color: transparent;
+    border: none;
+    font-size: 3.5em;
+    cursor: pointer;
+    color: #999;
+}
+.actions button a{
+    background-color: transparent;
+    color: #999;
+}
+.actions button a:hover{
+    color: #666;
+}
+.actions button:hover {
+    color: #666;
+}
+.prev{
+    background-color: transparent;
+    border: none;
+    font-size: 3.5em;
+    cursor: pointer;
+    color: #999;
+}
+/*Estilos del main*/
+.producto-contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 85%;
+}
+/*estilos del pie de pagina*/
+.piee {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 3%;
+    background: #364681;
+}
+.pie2{
+    display: contents;
+}
+.pie-text{
+    flex: 1;
+}
+.pie-text img{
+    height: 75px;
+    width: 75px;
+}
+.pie-text span{
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 400;
+}
+.pie-text .icons {
+ display: flex;
+}
+.pie-text .icons .icono a{
+    font-size: 3rem;
+}
+.pie-text .info {
+    margin-top: 5px;
+}
+.pie-text .info a{
+    color: white;
+    font-size: 2rem;
+}
+.pie-text .info a:hover{
+    color: #999;
+}
+
+.pie3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #FBF2D5;
+}
+.pie3 p{
+    font-size: 1.5rem;
+    color: black;
+}

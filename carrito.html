@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de deseos</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/carrito.css">
+</head>
+<body>
+    <!--inicio del menu de navegacion-->
+    <header>
+        <!--iconos del primer menu-->
+        <div class="top-nav">
+            <ul>
+                <li><a href="#" title="Usuario"><i class='bx bxs-user'></i></a></li>
+                <li><a href="/deseos.html" title="Lista de deseos"><i class='bx bxs-heart'></i></a></li>
+                <li><a href="#" title="Carrito"><i class='bx bxs-cart'></i></a></li>
+            </ul>
+        </div>
+        <!--segundo menu de navegacion-->
+        <div class="main-nav">
+            <nav>
+                <ul>
+                    <li>
+                        <select id="miSelect">
+                            <option value="all">Hombre</option>
+                            <option value="">Tennis</option>
+                            <option value="">Botas</option>
+                            <option value="">Botas industriales</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select id="miSelect">
+                            <option value="all">Mujer</option>
+                            <option value="">Tennis</option>
+                            <option value="">Balerinas</option>
+                            <option value="">Tacones</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select id="miSelect">
+                            <option value="all">Niños</option>
+                            <option value="">niños</option>
+                            <option value="">niñas</option>
+                            <option value="">Escolares</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--logo de la pagina-->
+        <div class="logo">
+            <a href="/index.html"><img src="/img/logo.png" alt="Logo"></a>
+        </div>
+    </header>
+    <!--fin del menu de navegacion-->
+    <section>
+        <h2 class="letra">Tu carrito</h2>
+        <div class="principal"> 
+            <div id="hilario">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Productos</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="/img/calzado1.png" alt="Zapato"><span>Nombre</span></td>
+                            <td>$15.00</td>
+                            <td id="tres">
+                                <div class="suma">
+                                    <button class="quantity-btn">-</button>
+                                </div>
+                                <div class="suma">
+                                    <input type="text" value="1">
+                                </div>
+                                <div class="suma">
+                                    <button class="quantity-btn">+</button>
+                                </div>
+                            </td>
+                            <td>$15.00</td>
+                            <td><button class="remove-btn">X</button></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/img/calzado2.png" alt="Zapato"><span>Nombre</span></td>
+                            <td>$15.00</td>
+                            <td id="tres">
+                                <div class="suma">
+                                    <button class="quantity-btn">-</button>
+                                </div>
+                                <div class="suma">
+                                    <input type="text" value="1">
+                                </div>
+                                <div class="suma">
+                                    <button class="quantity-btn">+</button>
+                                </div>
+                            </td>
+                            <td>$15.00</td>
+                            <td><button class="remove-btn">X</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="hilario" class="orden-especial">
+                <label class="pedido" for="special-instructions">Instrucciones especiales para su pedido</label>
+                <textarea id="special-instructions" rows="4"></textarea>
+                <div class="subtotal">
+                    <span>SUBTOTAL</span>
+                    <span>$15.00</span>
+                </div>
+                <button class="buy-now-btn">Comprar Ahora</button>
+            </div>
+        </div>
+
+    </section>
+    <!--inicio del pie de pagina-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="piee">
+        <div class="pie2">
+            <div class="pie-text">
+                <img src="/img/logo.png" alt="Logo personal">
+            </div>
+            <div class="pie-text">
+                <span>Contactos</span>
+                <div class="info icons">
+                    <div class="icono"><a href="#"><i class='bx bxl-facebook-square'></i></a></div>
+                   
+                    <div class="icono"><a href="#"><i class='bx bxl-instagram' ></i></a></div>
+                </div>
+            </div>
+           <div class="pie-text">
+             <span>Informacion</span>
+             <div class="info">
+                <a href="#">Acerca de...</a>
+             </div>
+           </div>
+           <div class="pie-text">
+             <span>Ayuda</span>
+             <div class="info">
+                <a href="#">Politicas y privacidad</a>
+             </div>
+           </div>
+        </div>
+    </footer>
+    <footer class="pie3">
+        <div class="pie4">
+            <p>Copyright & copy; 2024 by kaites | All Right Reserved.</p>
+        </div>
+    </footer>
+    <!--fin del pie de pagina-->
+</body>
+</html>

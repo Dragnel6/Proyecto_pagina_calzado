@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Cinzel', serif;
+
+}
+html{
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+header {
+    width: 100%;
+}
+
+/* Estilos de la barra superior */
+.top-nav {
+    background-color: #364681;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+}
+.top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top-nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.top-nav ul button i {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.top-nav ul li a:hover {
+ color: black;
+}
+/* Estilos de la barra principal */
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBF2D5;
+    padding: 10px 20px;
+}
+.logo img {
+    height: 75px;
+    width: 75px;
+    display: grid;
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li select {
+    background-color: #FBF2D5;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+}
+nav ul li select:hover {
+    background-color: #364681;
+    color: aqua;
+    border-radius: 5px;
+}
+/*estilos del contenido principal*/
+
+.letra {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section {
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+.principal {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#hilario{
+    flex: 1;
+    margin-left: 10px;
+}
+.wishlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tabla th,
+.tabla td {
+    font-size: 15px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+   border-right: none;
+   border-left: none;
+}
+#tres {
+    display: flex;
+    padding-bottom: 40px;
+}
+.suma {
+    flex: 1;
+}
+.tabla th {
+    background-color: #f4e8c1;
+}
+.tabla img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.quantity-btn {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.quantity-btn:hover {
+    background-color: #ccc;
+}
+.remove-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.remove-btn:hover {
+    background-color: darkorange;
+}
+
+/*estilos del pie de pagina*/
+.piee {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 3%;
+    background: #364681;
+}
+.pie2{
+    display: contents;
+}
+.pie-text{
+    flex: 1;
+}
+.pie-text img{
+    height: 75px;
+    width: 75px;
+}
+.pie-text span{
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 400;
+}
+.pie-text .icons {
+ display: flex;
+}
+.pie-text .icons .icono a{
+    font-size: 3rem;
+}
+.pie-text .info {
+    margin-top: 5px;
+}
+.pie-text .info a{
+    color: white;
+    font-size: 2rem;
+}
+.pie-text .info a:hover{
+    color: #999;
+}
+
+.pie3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #FBF2D5;
+}
+.pie3 p{
+    font-size: 1.5rem;
+    color: black;
+}

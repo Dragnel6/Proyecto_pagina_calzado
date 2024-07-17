@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/inicio.css">
+</head>
+<body>
+    <!--inicio del menu de navegacion-->
+    <header>
+        <!--iconos del primer menu-->
+        <div class="top-nav">
+            <ul>
+                <li><a href="#" title="Usuario"><i class='bx bxs-user'></i></a></li>
+                <li><a href="/deseos.html" title="Lista de deseos"><i class='bx bxs-heart'></i></a></li>
+                <li><a href="/carrito.html" title="Carrito"><i class='bx bxs-cart'></i></a></li>
+            </ul>
+        </div>
+        <!--segundo menu de navegacion-->
+        <div class="main-nav">
+            <nav>
+                <ul>
+                    <li>
+                        <select id="miSelect">
+                            <option value="all">Hombre</option>
+                            <option value="">Tennis</option>
+                            <option value="">Botas</option>
+                            <option value="">Botas industriales</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select id="miSelect">
+                            <option value="all">Mujer</option>
+                            <option value="">Tennis</option>
+                            <option value="">Balerinas</option>
+                            <option value="">Tacones</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select id="miSelect">
+                            <option value="all">Niños</option>
+                            <option value="">niños</option>
+                            <option value="">niñas</option>
+                            <option value="">Escolares</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--logo de la pagina-->
+        <div class="logo">
+            <a href="/index.html"><img src="/img/logo.png" alt="Logo"></a>
+        </div>
+    </header>
+    <!--fin del menu de navegacion-->
+
+    <!--Contenido de la pagina-->
+
+    <!--inicio del buscador-->
+    <section id="buscador">
+        <div class="search-container">
+            <input type="text" placeholder="Buscar" class="search-input">
+            <button class="search-button">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="white" d="M10 2a8 8 0 1 0 5.293 14.293l4.586 4.586a1 1 0 0 0 1.414-1.414l-4.586-4.586A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12A6 6 0 0 1 10 4z"/>
+                </svg>
+            </button>
+        </div>
+   </section>
+   <!--fin del buscador-->
+
+    <!--Catalogo de productos-->
+    <section>
+        <h1>Lo más destacado</h1>
+        <div class="categories">
+            <button>Hombre</button>
+            <button>Mujer</button>
+            <button>Niños</button>
+        </div>
+    </section>
+    <main class="Slider">
+        <div class="product-slider">
+            <button class="prev">❮</button>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="/img/calzado5.jpeg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado5.jpeg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado5.jpeg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado5.jpeg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado5.jpeg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button class="next">❯</button>
+        </div>
+    </main>
+    <!--todos los productos-->
+    <section>
+        <h1>Todos los productos</h1>
+    </section>
+    <main id="main" class="todos">
+        <div class="product-slider">
+            <div class="producto-contenedor">
+                <div class="product-card">
+                    <img src="/img/calzado4.png" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado4.png" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado4.png" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado4.png" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado6.jpg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado6.jpg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado6.jpg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/calzado6.jpg" alt="Producto 1">
+                    <div class="actions">
+                        <button class="favorite" title="Agregar a deseos"><i class='bx bxs-heart'></i></button>
+                        <button class="cart" title="Agregar a carrito"><i class='bx bxs-cart'></i></button>
+                        <button class="add" title="ver producto">
+                            <a href="/detalle.html"><i class='bx bxs-message-square-add'></i></a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </main>
+    <!--fin de todos los productos-->
+
+    <!--inicio del pie de pagina-->
+    <footer class="piee">
+        <div class="pie2">
+            <div class="pie-text">
+                <img src="/img/logo.png" alt="Logo personal">
+            </div>
+            <div class="pie-text">
+                <span>Contactos</span>
+                <div class="info icons">
+                    <div class="icono"><a href="#"><i class='bx bxl-facebook-square'></i></a></div>
+                   
+                    <div class="icono"><a href="#"><i class='bx bxl-instagram' ></i></a></div>
+                </div>
+            </div>
+           <div class="pie-text">
+             <span>Informacion</span>
+             <div class="info">
+                <a href="#">Acerca de...</a>
+             </div>
+           </div>
+           <div class="pie-text">
+             <span>Ayuda</span>
+             <div class="info">
+                <a href="#">Politicas y privacidad</a>
+             </div>
+           </div>
+        </div>
+    </footer>
+    <footer class="pie3">
+        <div class="pie4">
+            <p>Copyright & copy; 2024 by kaites | All Right Reserved.</p>
+        </div>
+    </footer>
+    <!--fin del pie de pagina-->
+</body>
+</html>
